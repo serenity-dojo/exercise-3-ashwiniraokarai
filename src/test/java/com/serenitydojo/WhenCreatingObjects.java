@@ -8,7 +8,7 @@ public class WhenCreatingObjects {
     public void creating_a_dog(){
         Dog fido = new Dog("Fido", "Bone", 5);
         Assert.assertEquals(fido.getName(), "Fido");
-        Assert.assertEquals(fido.getFavoriteFood(), "Bone");
+        Assert.assertEquals(fido.getFavoriteToy(), "Bone");
 
 //        Commenting sample code because compiler cannot decide which one of the assertEquals flavor to call:
 //        java: reference to assertEquals is ambiguous
